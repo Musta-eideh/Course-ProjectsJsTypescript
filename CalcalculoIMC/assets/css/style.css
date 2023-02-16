@@ -29,6 +29,15 @@ body {
     border-radius: 8px;
 }
 
+h1, h2{
+    text-align: center;
+}
+
+.formula {
+    text-align: center;
+    text-decoration:solid;
+}
+
 form input, form label,  form button {
     display: block;
     width: 100%;
@@ -36,8 +45,8 @@ form input, form label,  form button {
 }
 
 form input {
-    font-size: 24px;
-    height: 26px;
+    font-size: 20px;
+    height: 30px;
     padding: 0 20px;
     border: none;
     border-radius: 5px;
@@ -62,3 +71,13 @@ form button {
 form button:hover {
     background: var(--third-color);
 }
+
+.paragrafo-resultado, .bad {
+    background: rgb(10, 142, 10);
+    padding: 10px 20px;
+}
+
+.bad{
+    background: rgb(222, 17, 17);
+}
+
