@@ -1,0 +1,27 @@
+:root {
+    --primary-color: #424874;
+    --second-color: #DCD6F7;
+    --third-color: #A6B1E1;
+}
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--second-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 200px auto;
+    background: var(--primary-color);
+    padding: 50px;
+    border-radius: 8px;
+}
