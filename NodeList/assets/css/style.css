@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-
-:root{
-    --primary-color: #c4cad0;
-    --second-color: #878c8f;
-    --third-color: #7c7c7c;
-    --fourth-color: #fcf7ff;
+:root {
+    --primary-color: #424874;
+    --second-color: #DCD6F7;
+    --third-color: #A6B1E1;
 }
 
 *{
@@ -23,9 +20,8 @@ body {
 
 .container {
     max-width: 640px;
-    margin: 50px auto;
+    margin: 200px auto;
     background: var(--primary-color);
     padding: 50px;
     border-radius: 8px;
 }
-
